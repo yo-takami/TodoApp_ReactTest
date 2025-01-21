@@ -1,7 +1,7 @@
 import "./styles.css";
 
-const { useState, useEffect } = React;
-const { Routes, Route, NavLink, useNavigate } = ReactRouterDOM;
+import { useState } from "react";
+import { Routes, Route, NavLink, useNavigate } from "react-router-dom";
 
 export default function TodoApp() {
   const [tasks, setTasks] = useState([]);
